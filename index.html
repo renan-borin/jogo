@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do Arroz perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+         <img src="cenario-0.jpg" alt="">
+        <p>Em um dia, em madureira, Zeca precisou comprar arroz... então é hora de buscar!</p>
+        <button class="btn-proximo" data-proximo="1">Atacado Atacadinho</button>
+        <button class="btn-proximo" data-proximo="2">Mercado Pão de Açúcar</button>  
+    </div>
+    <div class="passo" id="passo-1">
+            <img src="cenario-atacadinho.jpg" alt="">
+            <p>No Atacadinho tem muitas promoções, e na sessão de grãos encontra o Arroz de uma marca boa, mas você vê um novo sabor de Doritos que está em uma super promoção... mas a sua missão é outra. Você ira comprar arroz um Doritos?</p>
+            <button class="btn-proximo" data-proximo="3">Lembre da chinela da sua mãe</button>
+            <button class="btn-proximo" data-proximo="4">Aproveite a promoção de doritos sabor Dynamite</button>
+      </div>
+      <div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-pao-de-sal-v2.jpg" alt="">
+            <p>Pão de Açúcar é um mercado muito famoso, então você vai direto para o corredor de grãos. Porém você não vê nenhum arroz.. até chama um funcionário, ele avisa que o caminhão ficou barrado no pé do morro Santo-Amaro. Você tem uma ideia e não vai voltar sem o arroz para casa:</p>
+            <button class="btn-proximo" data-proximo="5">Ir para o pé do morro</button>
+            <button class="btn-proximo" data-proximo="6">Comprar grão de bico e torcer para a sua mãe não perceber</button>
+      </div>
+       <div class="passo" id="passo-3">
+         <img src="cenario-sus.webp" alt="">
+         <h1>Você compra o Arroz Empório são Nicolau e volta para casa, porém no caminho é acertado por uma bala perdida e vai para SUS...</h1>
+         <p>(FINAL: Você corre risco de vida)</p>
+    </div>
+    <div class="passo" id="passo-4">
+        <img src="end-dinamita.webp" alt="">
+        <h1>Esse novo saber é realmente picante... Tomara que tenha valido a pena ser bocó.</h1>
+        <p>(FINAL: Se prepara para a chinelada)</p>
+  </div>
+    <div class="passo" id="passo-6">
+         <img src="cenario-grao-de-bico.jpg" alt="">
+         <h1>Você comprou grão de bico e infelizmente sua mãe percebeu.. porém era uma das comidas favoritas dela e ela não ficou tão brava, afinal você comprou 2 Kilos dessa comida e agora vão comer algo delicioso pelos próximos dias.</h1>
+         <p>(FINAL: Todos saem ganhando)</p>
+    </div>
+     <div class="passo" id="passo-5">
+             <img src="cenario-santo-amaro-v2.jpg" alt="">
+             <p>Você decidiu vasculhar a enrada do morro, e presenciou o caminhão parado jovens sem camisa intimidando o motorista. Bom, você viu muitos filmes de Aventura e lembrou de uma cena parecida e os protagonistas faziam algumas coisas:</p>
+             <button class="btn-proximo" data-proximo="7">Jogar uma pedra em um portão próximo para distrair eles para outro canto</button>
+             <button class="btn-proximo" data-proximo="8">Pegar um pacote de arroz sem ninguém perceber</button>
+     </div>
+     <div class="passo" id="passo-8">
+        <img src="aaaaaaaaaaaaaaaaaaa.webp" alt="">
+        <p>okay, parabéns você conseguiu seu DESONESTO, TOMARA QUE VOCÊ SE DÊ MAL.. enfim, quer sair do morro pelo ônibus ou a pé mesmo?</p>
+        <button class="btn-proximo" data-proximo="9">Ir para o pé</button>
+        <button class="btn-proximo" data-proximo="10">Pegar o ônibus</button>
+  </div>
+  <div class="passo" id="passo-7">
+    <img src="good-end.avif" alt="">
+    <h1>O plano deu certo, você e o motorista fugiram do morro com o caminhão e como agradecimento o motorista te deu pacote do arroz de presente.
+        Você passa pelo mercado Atacadinho na volta, e aproveita a promoção do Doritos, e tudo termina bem.</h1>
+    <p>(FINAL: Deu tudo certo)</p>
+  </div>
+  <div class="passo" id="passo-10">
+    <img src="end-onibus.webp" alt="">
+    <h1>Infelizmente seu ônibus foi vitima de protesto e foi incêndiado</h1>
+        <p>(FINAL DA DESONESTIDADE)</p>
+    </p>
+  </div>
+  <div class="passo" id="passo-9">
+    <img src="feben.webp" alt="">
+    <h1>Você voltou para casa, deu o arroz para a sua mãe e escondeu o dinheiro não gasto dentro do travesseiro</h1>
+        <p>(FINAL: Talvez você vá para FEBEN se isso continuar)</p>
+  </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
